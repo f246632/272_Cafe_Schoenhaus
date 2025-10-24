@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Schönhaus - Gemütliches Café in Berlin Steglitz. Genießen Sie exzellenten Kaffee, große Auswahl an Teesorten, und köstliches Frühstück in entspannter Atmosphäre.">
+    <meta name="keywords" content="Café Berlin, Kaffee, Tee, Frühstück, Steglitz, Café Schönhaus, Laptop-freundlich">
+    <meta name="author" content="Café Schönhaus">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Café Schönhaus - Ihr gemütliches Café in Berlin">
+    <meta property="og:description" content="Exzellenter Kaffee, große Teeauswahl und köstliches Frühstück im Herzen von Berlin">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/source/cafe-image-1.jpg">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Cafe",
+      "name": "Café Schönhaus",
+      "image": "./images/source/cafe-image-1.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Schönhauser Str. 11",
+        "addressLocality": "Berlin",
+        "postalCode": "12169",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.4689,
+        "longitude": 13.3382
+      },
+      "servesCuisine": "Café, Frühstück, Kaffee",
+      "priceRange": "€€",
+      "amenityFeature": [
+        "Große Auswahl an Teesorten",
+        "Guter Kaffee",
+        "Frühstück",
+        "Geeignet zum Arbeiten am Laptop"
+      ]
+    }
+    </script>
+
+    <title>Café Schönhaus | Gemütliches Café in Berlin Steglitz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">Café Schönhaus</h1>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Über Uns</a></li>
+                <li><a href="#menu" class="nav-link">Angebot</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#location" class="nav-link">Standort</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Willkommen im Café Schönhaus</h2>
+            <p class="hero-subtitle">Ihr Ruhepol im Herzen von Berlin</p>
+            <p class="hero-description">Genießen Sie exzellenten Kaffee, eine vielfältige Teeauswahl und köstliches Frühstück in gemütlicher Atmosphäre</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Unser Angebot</a>
+                <a href="#location" class="btn btn-secondary">Besuchen Sie uns</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Über Café Schönhaus</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Ein Ort zum Entspannen, Genießen und Verweilen</p>
+                    <p>Das Café Schönhaus ist mehr als nur ein Café – es ist ein zweites Wohnzimmer für Kaffeeliebhaber, Teekenner und alle, die eine gemütliche Atmosphäre schätzen. In unserem liebevoll eingerichteten Café in Berlin-Steglitz finden Sie die perfekte Balance zwischen modernem Komfort und traditionellem Charme.</p>
+                    <p>Ob Sie alleine frühstücken, mit Freunden einen Kaffee genießen oder produktiv am Laptop arbeiten möchten – bei uns sind Sie herzlich willkommen. Unsere große Auswahl an Teesorten und unser exzellenter Kaffee werden Sie begeistern.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3>Exzellenter Kaffee</h3>
+                        <p>Sorgfältig ausgewählte Bohnen für den perfekten Geschmack</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍵</div>
+                        <h3>Große Teeauswahl</h3>
+                        <p>Von klassisch bis exotisch – für jeden Geschmack etwas dabei</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🥐</div>
+                        <h3>Frisches Frühstück</h3>
+                        <p>Starten Sie den Tag mit unserem köstlichen Frühstücksangebot</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💻</div>
+                        <h3>Laptop-freundlich</h3>
+                        <p>Arbeiten Sie in entspannter Atmosphäre mit WLAN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unser Angebot</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Entdecken Sie unsere sorgfältig zusammengestellte Auswahl</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-category">
+                    <h3 class="category-title">Kaffee Spezialitäten</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Espresso</h4>
+                                <span class="item-price">2.50€</span>
+                            </div>
+                            <p>Kräftig und aromatisch</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Cappuccino</h4>
+                                <span class="item-price">3.50€</span>
+                            </div>
+                            <p>Mit feinem Milchschaum</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Latte Macchiato</h4>
+                                <span class="item-price">3.80€</span>
+                            </div>
+                            <p>Geschichtet im Glas</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Filterkaffee</h4>
+                                <span class="item-price">2.80€</span>
+                            </div>
+                            <p>Frisch gebrüht</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3 class="category-title">Tee Auswahl</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Schwarztee Klassisch</h4>
+                                <span class="item-price">3.20€</span>
+                            </div>
+                            <p>Earl Grey, English Breakfast</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Grüntee</h4>
+                                <span class="item-price">3.50€</span>
+                            </div>
+                            <p>Sencha, Jasmin, Matcha</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Kräutertee</h4>
+                                <span class="item-price">3.20€</span>
+                            </div>
+                            <p>Kamille, Pfefferminze, Früchte</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Spezialitäten</h4>
+                                <span class="item-price">3.80€</span>
+                            </div>
+                            <p>Rooibos, Chai, Oolong</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3 class="category-title">Frühstück & Snacks</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Frühstücksklassiker</h4>
+                                <span class="item-price">8.50€</span>
+                            </div>
+                            <p>Brötchen, Aufschnitt, Käse, Marmelade</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Veganes Frühstück</h4>
+                                <span class="item-price">9.50€</span>
+                            </div>
+                            <p>Mit pflanzlichen Alternativen</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Croissant</h4>
+                                <span class="item-price">2.80€</span>
+                            </div>
+                            <p>Butter oder Schoko</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Kuchen des Tages</h4>
+                                <span class="item-price">4.50€</span>
+                            </div>
+                            <p>Hausgemacht und frisch</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3 class="category-title">Kalte Getränke</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Eiskaffee</h4>
+                                <span class="item-price">4.50€</span>
+                            </div>
+                            <p>Mit Vanilleeis und Sahne</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Eistee</h4>
+                                <span class="item-price">3.80€</span>
+                            </div>
+                            <p>Pfirsich oder Zitrone</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Hausgemachte Limonade</h4>
+                                <span class="item-price">4.20€</span>
+                            </div>
+                            <p>Frisch und erfrischend</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Smoothies</h4>
+                                <span class="item-price">5.50€</span>
+                            </div>
+                            <p>Wechselnde Sorten</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galerie</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Entdecken Sie die Atmosphäre unseres Cafés</p>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-category="interior">
+                    <img src="images/source/cafe-image-1.jpg" alt="Café Schönhaus Interieur 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="interior">
+                    <img src="images/source/cafe-image-2.jpg" alt="Café Schönhaus Interieur 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="atmosphere">
+                    <img src="images/source/cafe-image-3.jpg" alt="Café Schönhaus Atmosphäre 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <img src="images/source/cafe-image-4.jpg" alt="Café Schönhaus Speisen 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="interior">
+                    <img src="images/source/cafe-image-5.jpg" alt="Café Schönhaus Interieur 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="atmosphere">
+                    <img src="images/source/cafe-image-6.jpg" alt="Café Schönhaus Atmosphäre 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <img src="images/source/cafe-image-7.jpg" alt="Café Schönhaus Speisen 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="interior">
+                    <img src="images/source/cafe-image-8.jpg" alt="Café Schönhaus Interieur 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="atmosphere">
+                    <img src="images/source/cafe-image-9.jpg" alt="Café Schönhaus Atmosphäre 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <img src="images/source/cafe-image-10.jpg" alt="Café Schönhaus Speisen 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Was unsere Gäste sagen</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Ein wunderbares Café mit ausgezeichnetem Kaffee und einer gemütlichen Atmosphäre. Perfekt zum Arbeiten oder einfach zum Entspannen. Die Teeauswahl ist beeindruckend!"</p>
+                    <div class="review-author">
+                        <strong>Sarah M.</strong>
+                        <span>Google Bewertung</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Das Frühstück ist fantastisch und das Personal sehr freundlich. Ich komme regelmäßig hierher und fühle mich jedes Mal willkommen. Ein echter Geheimtipp in Steglitz!"</p>
+                    <div class="review-author">
+                        <strong>Michael K.</strong>
+                        <span>Google Bewertung</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Tolles Ambiente, super Kaffee und leckere Kuchen. Man kann hier wunderbar alleine frühstücken oder mit Freunden Zeit verbringen. Absolut empfehlenswert!"</p>
+                    <div class="review-author">
+                        <strong>Anna L.</strong>
+                        <span>Google Bewertung</span>
+                    </div>
+                </div>
+            </div>
+            <div class="google-rating">
+                <div class="rating-badge">
+                    <span class="rating-number">4.8</span>
+                    <div class="rating-stars">★★★★★</div>
+                    <span class="rating-source">Google Bewertungen</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Besuchen Sie uns</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <h3>📍 Adresse</h3>
+                        <p>Schönhauser Str. 11<br>12169 Berlin<br>Deutschland</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🕐 Öffnungszeiten</h3>
+                        <p>Montag - Freitag: 8:00 - 18:00<br>
+                           Samstag: 9:00 - 17:00<br>
+                           Sonntag: 10:00 - 17:00</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🚇 Anfahrt</h3>
+                        <p>U-Bahn: Rathaus Steglitz (U9)<br>
+                           Bus: M48, M85, 170, 185<br>
+                           Parkplätze in der Nähe verfügbar</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>📞 Kontakt</h3>
+                        <p>Telefon: <a href="tel:+493012345678">030 12345678</a><br>
+                           E-Mail: <a href="mailto:info@cafe-schoenhaus.de">info@cafe-schoenhaus.de</a></p>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.0!2d13.3382!3d52.4689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36bc3467116fd247!2sCaf%C3%A9%20Sch%C3%B6nhaus!5e0!3m2!1sde!2sde!4v1234567890"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontaktieren Sie uns</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Haben Sie Fragen oder möchten Sie einen Tisch reservieren?</p>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Betreff *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nachricht *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Café Schönhaus</h3>
+                    <p>Ihr gemütliches Café im Herzen von Berlin-Steglitz</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Schnelllinks</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Über Uns</a></li>
+                        <li><a href="#menu">Angebot</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <ul>
+                        <li>Schönhauser Str. 11</li>
+                        <li>12169 Berlin</li>
+                        <li>Tel: 030 12345678</li>
+                        <li>info@cafe-schoenhaus.de</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Folgen Sie uns</h3>
+                    <div class="social-links">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Café+Schönhaus&query_place_id=ChIJ58EtWpxaqEcRR9JvEWc0vDY" target="_blank" rel="noopener" aria-label="Google Maps">📍</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Café Schönhaus. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImage" alt="Gallery Image">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">&#10095;</button>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

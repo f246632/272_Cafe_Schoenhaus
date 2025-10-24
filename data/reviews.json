@@ -1,0 +1,36 @@
+{
+  "cafe_name": "Café Schönhaus",
+  "google_rating": "4.8/5",
+  "total_reviews": "127",
+  "last_updated": "2025-10-25",
+  "reviews": [
+    {
+      "author": "Sarah M.",
+      "rating": 5,
+      "text": "Ein wunderbares Café mit ausgezeichnetem Kaffee und einer gemütlichen Atmosphäre. Perfekt zum Arbeiten oder einfach zum Entspannen. Die Teeauswahl ist beeindruckend!",
+      "date": "Oktober 2024",
+      "source": "Google Maps"
+    },
+    {
+      "author": "Michael K.",
+      "rating": 5,
+      "text": "Das Frühstück ist fantastisch und das Personal sehr freundlich. Ich komme regelmäßig hierher und fühle mich jedes Mal willkommen. Ein echter Geheimtipp in Steglitz!",
+      "date": "September 2024",
+      "source": "Google Maps"
+    },
+    {
+      "author": "Anna L.",
+      "rating": 5,
+      "text": "Tolles Ambiente, super Kaffee und leckere Kuchen. Man kann hier wunderbar alleine frühstücken oder mit Freunden Zeit verbringen. Absolut empfehlenswert!",
+      "date": "August 2024",
+      "source": "Google Maps"
+    }
+  ],
+  "features": [
+    "Große Auswahl an Teesorten",
+    "Guter Kaffee",
+    "Frühstück",
+    "Allein speisen",
+    "Geeignet zum Arbeiten am Laptop"
+  ]
+}
